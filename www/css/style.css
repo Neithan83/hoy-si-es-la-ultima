@@ -1,0 +1,859 @@
+/* Empty. Add your own CSS if you like */
+.menu{
+  background: url("https://www.metropolitanapisos.com.uy/wp-content/uploads/2016/06/cesped-jardin.jpg")no-repeat;
+  background-size:center;
+  width: 100%;
+  height: auto;
+}
+a{
+  text-decoration-color: none;
+}
+.efecto:hover{
+    background: #2D760A;
+    color:#000000 !important;
+}
+canvas {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+  background-color: #DABDD8;
+}
+.fondoagua{
+  background: url("https://data.whicdn.com/images/305651008/original.gif")no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+}
+.contenido{
+  width: auto;
+    height: auto;
+    border-radius: 20%;
+    background: transparent;
+    text-align: center;
+}
+p{
+  padding: 2%
+}
+/*estilo adn*/
+
+@-webkit-keyframes spinner {
+   from {
+     -webkit-transform: rotateY(0deg);
+   }
+   to {
+     -webkit-transform: rotateY(-360deg);
+   }
+ }
+
+ /* all other browsers */
+
+@keyframes spinner {
+   from {
+     -moz-transform: rotateY(0deg);
+     -ms-transform: rotateY(0deg);
+     transform: rotateY(0deg);
+   }
+   to {
+     -moz-transform: rotateY(-460deg);
+     -ms-transform: rotateY(-460deg);
+     transform: rotateY(-460deg);
+   }
+ }
+
+ #stage {
+   margin: 1em auto;
+   -webkit-perspective: 1400px;
+   -moz-perspective: 1400px;
+   -ms-perspective: 1400px;
+   perspective:1400px;
+
+   /* Safari */
+-webkit-transform: rotate(-0deg);
+
+/* Firefox */
+-moz-transform: rotate(-0deg);
+
+/* IE */
+-ms-transform: rotate(-0deg);
+
+/* Opera */
+-o-transform: rotate(-0deg);
+ }
+
+ #spinner *{
+   -webkit-animation-name: spinner;
+   -webkit-animation-timing-function:linear;
+   -webkit-animation-iteration-count: infinite;
+   -webkit-animation-duration: 6s;
+   animation-name: spinner;
+
+   animation-timing-function: linear;
+   animation-iteration-count: infinite;
+   animation-duration: 6s;
+   -webkit-transform-style: preserve-3d;
+   -moz-transform-style: preserve-3d;
+   -ms-transform-style: preserve-3d;
+   transform-style: preserve-3d;
+ }
+
+#spinner *:nth-child(1) {
+  animation-delay: -1.9s;
+}
+
+#spinner *:nth-child(2) {
+  animation-delay: -2s;
+}
+
+#spinner *:nth-child(3) {
+  animation-delay: -2.3s;
+}
+
+#spinner *:nth-child(4) {
+  animation-delay: -2.4s;
+}
+
+#spinner *:nth-child(5) {
+  animation-delay: -2.6s;
+}
+
+#spinner *:nth-child(6) {
+  animation-delay: -2.8s;
+}
+
+#spinner *:nth-child(7) {
+  animation-delay: -3.0s;
+}
+
+#spinner *:nth-child(8) {
+  animation-delay: -3.2s;
+}
+
+#spinner *:nth-child(9) {
+  animation-delay: -3.4s;
+}
+
+ #spinner:hover {
+   -webkit-animation-play-state: paused;
+   animation-play-state: paused;
+ }
+
+span.grey {
+  background: #cccccc;
+  border-radius: 0.8em;
+  -moz-border-radius: 0.8em;
+  -webkit-border-radius: 0.8em;
+  color: #fff;
+  display: inline-block;
+  font-weight: bold;
+  line-height: 1.1em;
+  margin-right: 3px;
+  text-align: center;
+  width: 1.1em;
+}
+
+span.green {
+  background: #5EA226;
+  border-radius: 0.8em;
+  -moz-border-radius: 0.8em;
+  -webkit-border-radius: 0.8em;
+  color: #ffffff;
+  display: inline-block;
+  font-weight: bold;
+  line-height: 1.1em;
+  margin-right: 15px;
+  text-align: center;
+  width: 1.1em;
+}
+
+span.blue {
+  background: #55FB07 ;
+  border-radius: 0.8em;
+  -moz-border-radius: 0.8em;
+  -webkit-border-radius: 0.8em;
+  color: #ffffff;
+  display: inline-block;
+  font-weight: bold;
+  line-height: 1.1em;
+  margin-right: 3px;
+  text-align: center;
+  width: 1.1em;
+}
+
+span.pink {
+  background: #FB7807 ;
+  border-radius: 0.8em;
+  -moz-border-radius: 0.8em;
+  -webkit-border-radius: 0.8em;
+  color: #ffffff;
+  display: inline-block;
+  font-weight: bold;
+  line-height: 1.1em;
+  margin-right: 15px;
+  text-align: center;
+  width: 1.1em;
+}
+.lineas{
+  color: #30760F;
+}
+.lineas2{
+  color: #CB8D11;
+}
+.fondoadn{
+  background: url("https://static1.squarespace.com/static/550da492e4b0fbfc5a593e75/582f515737c581887415202a/582f5158e6f2e1b9fc74e555/1479496032387/mogi7_16.gif")no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+}
+/* estiolo de la vista de login*/
+.fondologin{
+  background: url("https://wallpaperaccess.com/full/647786.gif")no-repeat ;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  padding: 0%;
+  z-index: 100px;
+  position: center;
+}
+.divisionform{
+  background: url("https://i.pinimg.com/originals/a5/9a/81/a59a81e183fcab27424009c8a29c87fc.gif")no-repeat ;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  
+  border-radius: 10px;
+  padding-left: 20%;
+  padding-right: 20%;
+  margin-top:20%;
+}
+.Aguapp{
+  font-size:48px;
+}
+.usuarioC{
+  width: 100%;
+  background: none;
+  border:3px solid white  !important;
+  border-radius:40px !important;
+}
+.usuarioC2{
+  width: 100%;
+  background: none;
+  border:1px solid #000000 !important;
+  border-radius:20px !important;
+}
+.registrar{
+  width: 100%;
+  height: 30px;
+  font-size: 18px;
+  color: #FFF;
+  background: #616f39;
+}
+/*estilo de los videos*/
+.conta{
+    width:100%;
+    height:250px;
+    padding:10% !important;
+}
+/*infografia*/
+.info{
+    padding: 1%
+    color:white;
+
+}
+.ejemplo{
+  width: 100%;
+  height: 180px;
+}
+.ejemplo2{
+  width: 200px;
+  height: 272px !important;
+}
+.teoria{
+  background: transparent;
+  color:white;
+}
+.teoria2{
+  background: transparent;
+  color:white;
+}
+.reproduccion{
+  color: black;
+  background: white;
+  padding: 1px;
+  text-align: center;
+}
+.foninfo{
+    background: url("https://i.pinimg.com/originals/08/b7/ce/08b7ce1d372f301d8fce8c52e9ac80f3.gif");
+    background-size: cover;
+}
+{
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+
+.fondoinicio{
+  width: 100%;
+  right: 100%;
+  }
+  body{
+    background:#cc9;
+    /*background:#181907;*/
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+    margin: 0;
+}
+ 
+#registrar{
+        float:left;
+        width:80%;
+        font-size:24px;
+        font-weight:bold;
+        color:#FFF;
+        text-align:right;
+}
+ 
+#envoltura{
+        position:absolute;
+    /*left y top al 50% para que quede centrado en la pantalla*/
+    left:50%;
+    top:50%;
+    margin-left:-165px;
+    margin-top: -210px;
+    width: 330px;
+ 
+}
+ 
+#contenedor{
+    background-color:#BF00FF;
+    /*background-color:#356AA0;*/
+    /*box-shadow: 0 0 0 9px rgba(128,0,0,.1);*/
+    /*Margen de sombra alrededor del contenedor 8px negro*/
+    box-shadow: 3px 3px 10px 5px rgba(0,0,0,.8);
+    /*Las 3 líneas siguientes, sirven para el borde redondeado
+     * pero para diferentes navegadores*/
+    -webkit-border-radius:5px;
+    -moz-border-radius:10px;
+    border-radius:10px;
+}
+ 
+#cabecera{
+    /*linea azul que separa logo*/
+    border-bottom: 5px solid #333;
+    padding-top: 5px;
+    /*color:#FFF;*/
+    height:70px;
+    line-height:50px;
+    text-align:center;
+}
+ 
+#cuerpo{
+    background:#ececec;
+    border:solid #ccc;
+    /*aumentando el 2px 'aparece' un borde*/
+    border-width: 2px 0;
+    padding:15px 35px;
+}
+ 
+label{
+    color: #666;
+    font-weight: bold
+}
+ 
+input{
+    /*border: 1px solid #999; No usar esta línea y dejar box-shadow hace efecto de profundidad*/
+    border-radius:5px; /*probar con 10px se hacen ovalados los inputs*/
+    box-shadow: 2px 2px 3px 1px rgba(0,0,0,.8);
+    font:bold 12px Arial, Helvetica, sans-serif;
+    height: 24px;
+    line-height: 20px;
+    padding:0 2px;
+    width: 230px;
+}
+ 
+input#usuario{
+    background:#ffc url(./images/loquito.jpg) no-repeat 0 2px; /*probar con #ddf.
+                                                                Para mover arriba-abajo la imagen 'jugar' con 2px, 5px */
+    /*Para que el texto dentro del input se mueva*/
+    padding-left: 25px; /*Sirve para darle espacio ala imagen, probar con 30px 10px y ver comportamiento*/
+}
+ 
+input#contrasenia{
+    background:#ffc url(./images/infinio.jpg) no-repeat 0 5px;
+    padding-left: 25px;
+ 
+}
+ 
+.boton{
+    background: #ccc;
+    /*background: -moz-linear-gradient(top,#eee,#ccc);*/
+    /*background: -moz-linear-gradient(top,#fc6,#f63);*/
+    background: -webkit-linear-gradient(top,#fc6,#f63);
+    background: linear-gradient(top,#fc6,#f63);
+    /*Color del texto*/
+    color:white;
+    width: 120px;
+}
+ 
+/*Tip estas instrucciones animan al boton enviar
+ * para que se vea como si se pulsara*/
+.boton:active{
+    position: relative;
+    top: 3px;
+}
+ 
+#pie{
+    border-top: 5px solid #333;
+    color: #fff;
+    font-size: 11px;
+    height: 25px;
+    line-height: 24px;
+    text-align: center;
+}
+ 
+form,p{
+    margin:0;
+}
+ 
+p{
+    /*Para que los elementos del cuerpo
+     * se separen entre ellos probar con
+     * 10px 20px                      */
+    padding-bottom: 5px;
+}
+ 
+/*Para separar el botón de ingresar*/
+p#bot{
+    padding-top: 10px;
+}
+.ima{
+  width: 100px;
+  left: 20px;
+}
+.tabla{
+  
+  width: 380px;
+  left:900px;
+  right: 700px; 
+}
+.fondotabla{
+  background: url(https://media1.tenor.com/images/ef736317e36cda91de02cd663a23c776/tenor.gif?itemid=9569801)no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+}
+{
+  
+}
+.nutrifacts-html {
+  padding: 2px;
+  font-family:"Helvetica";
+  font-size: 12px;
+  float:left;
+  border: 2px solid white;
+  width:250px;
+  margin-top:2px;
+  }
+.nutrifacts-html table{
+  border-collapse: collapse;
+  width: 100%
+}
+.nutrifacts-html td {
+  border-top: 1px solid white;
+}
+.nutrifacts-html h2 {
+  margin:0;
+  font-size:29px; 
+}
+.separator {
+  height:0px;
+  background-color:white;
+  margin-top:0px;
+}
+.alineartexto {
+  text-align:right;
+}
+.alinearcantidad {
+  text-align:right;
+}
+z-border-radius: 0.8em;
+  -webkit-border-radius: 0.8em;
+  color: #ffffff;
+  display: inline-block;
+  font-weight: bold;
+  line-height: 1.6em;
+  margin-right: 15px;
+  text-align: center;
+  width: 1.6em; 
+}
+
+span.grey {
+  background: #cccccc;
+  border-radius: 0.8em;
+  -moz-border-radius: 0.8em;
+  -webkit-border-radius: 0.8em;
+  color: #fff;
+  display: inline-block;
+  font-weight: bold;
+  line-height: 1.6em;
+  margin-right: 15px;
+  text-align: center;
+  width: 1.6em; 
+}
+
+span.green {
+  background: #5EA226;
+  border-radius: 0.8em;
+  -moz-border-radius: 0.8em;
+  -webkit-border-radius: 0.8em;
+  color: #ffffff;
+  display: inline-block;
+  font-weight: bold;
+  line-height: 1.6em;
+  margin-right: 15px;
+  text-align: center;
+  width: 1.6em; 
+}
+
+span.blue {
+  background: #5178D0;
+  border-radius: 0.8em;
+  -moz-border-radius: 0.8em;
+  -webkit-border-radius: 0.8em;
+  color: #ffffff;
+  display: inline-block;
+  font-weight: bold;
+  line-height: 1.6em;
+  margin-right: 15px;
+  text-align: center;
+  width: 1.6em; 
+}
+
+span.pink {
+  background: #EF0BD8;
+  border-radius: 0.8em;
+  -moz-border-radius: 0.8em;
+  -webkit-border-radius: 0.8em;
+  color: #ffffff;
+  display: inline-block;
+  font-weight: bold;
+  line-height: 1.6em;
+  margin-right: 15px;
+  text-align: center;
+  width: 1.6em; 
+}
+@-webkit-keyframes spinner {
+   from {
+     -webkit-transform: rotateY(0deg);
+   }
+   to {
+     -webkit-transform: rotateY(-360deg);
+   }
+ }
+
+ /* all other browsers */
+
+ @keyframes spinner {
+   from {
+     -moz-transform: rotateY(0deg);
+     -ms-transform: rotateY(0deg);
+     transform: rotateY(0deg);
+   }
+   to {
+     -moz-transform: rotateY(-360deg);
+     -ms-transform: rotateY(-360deg);
+     transform: rotateY(-360deg);
+   }
+ }
+
+ #stage {
+   margin: 1em auto;
+   -webkit-perspective: 1400px;
+   -moz-perspective: 1400px;
+   -ms-perspective: 1400px;
+   perspective: 1400px;
+   
+   /* Safari */
+-webkit-transform: rotate(-90deg);
+
+/* Firefox */
+-moz-transform: rotate(-90deg);
+
+/* IE */
+-ms-transform: rotate(-90deg);
+
+/* Opera */
+-o-transform: rotate(-90deg);
+ }
+
+ #spinner *{
+   -webkit-animation-name: spinner;
+   -webkit-animation-timing-function: linear;
+   -webkit-animation-iteration-count: infinite;
+   -webkit-animation-duration: 6s;
+   animation-name: spinner;
+   
+   animation-timing-function: linear;
+   animation-iteration-count: infinite;
+   animation-duration: 6s;
+   -webkit-transform-style: preserve-3d;
+   -moz-transform-style: preserve-3d;
+   -ms-transform-style: preserve-3d;
+   transform-style: preserve-3d;
+ }
+
+#spinner *:nth-child(1) { 
+  animation-delay: -1.9s;
+}
+
+#spinner *:nth-child(2) { 
+  animation-delay: -2s;
+}
+
+#spinner *:nth-child(3) { 
+  animation-delay: -2.3s;
+}
+
+#spinner *:nth-child(4) { 
+  animation-delay: -2.4s;
+}
+
+#spinner *:nth-child(5) { 
+  animation-delay: -2.6s;
+}
+
+#spinner *:nth-child(6) { 
+  animation-delay: -2.8s;
+}
+
+#spinner *:nth-child(7) { 
+  animation-delay: -3.0s;
+}
+
+#spinner *:nth-child(8) { 
+  animation-delay: -3.2s;
+}
+
+#spinner *:nth-child(9) { 
+  animation-delay: -3.4s;
+}
+
+ #spinner:hover {
+   -webkit-animation-play-state: paused;
+   animation-play-state: paused;
+ }
+
+span.grey {
+  background: red;
+  border-radius: 0.8em;
+  -moz-border-radius: 0.8em;
+  -webkit-border-radius: 0.8em;
+  color: red;
+  display: inline-block;
+  font-weight: bold;
+  line-height: 1.6em;
+  margin-right: 15px;
+  text-align: center;
+  width: 1.6em; 
+}
+
+span.green {
+  background: red;
+  border-radius: 0.1em;
+  -moz-border-radius: 0.8em;
+  -webkit-border-radius: 0.8em;
+  color: red;
+  display: inline-block;
+  font-weight: bold;
+  line-height: 1.6em;
+  margin-right: 15px;
+  text-align: center;
+  width: 1.6em; 
+}
+
+span.blue {
+  background: green;
+  border-radius: 0.8em;
+  -moz-border-radius: 0.8em;
+  -webkit-border-radius: 0.8em;
+  color: #ffffff;
+  display: inline-block;
+  font-weight: bold;
+  line-height: 1.6em;
+  margin-right: 15px;
+  text-align: center;
+  width: 1.6em; 
+}
+
+span.pink {
+  background: red;
+  border-radius: 0.8em;
+  -moz-border-radius: 0.8em;
+  -webkit-border-radius: 0.8em;
+  color:white;
+  display: inline-block;
+  font-weight: bold;
+  line-height: 1.6em;
+  margin-right: 15px;
+  text-align: center;
+  width: 1.6em; 
+}
+.lineas1{
+  color: red;
+}
+.lineas2{
+  color: red;
+}
+.memoria{
+  background: #000000;
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px;
+  grid-gap: 10px;
+  width: 700px;
+  margin:50px auto;
+}
+
+.carta{
+  background: #BF0000;
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  box-sizing: border-box;
+  transition: background 1s;
+}
+.carta:hover {
+  background: #790000;
+  cursor: pointer;
+}
+
+.carta.A {
+  background: #00FF35;
+  pointer-events: none;
+}
+.carta.A::after{
+  content: 'A';
+  font-size: 90px;
+}
+.carta.B {
+  background: #00FF35;
+  pointer-events: none;
+}
+.carta.B::after{
+  content: 'B';
+  font-size: 90px;
+}
+.carta.C {
+  background: #00FF35;
+  pointer-events: none;
+}
+.carta.C::after{
+  content: 'C';
+  font-size: 90px;
+}
+.carta.D {
+  background: #00FF35;
+  pointer-events: none;
+}
+.carta.D::after{
+  content: 'D';
+  font-size: 90px;
+}
+.carta.E {
+  background: #00FF35;
+  pointer-events: none;
+}
+.carta.E::after{
+  content: 'E';
+  font-size: 90px;
+}
+.carta.F {
+  background: #00FF35;
+  pointer-events: none;
+}
+.carta.F::after{
+  content: 'F';
+  font-size: 90px;
+}
+.carta.G {
+  background: #00FF35;
+  pointer-events: none;
+}
+.carta.G::after{
+  content: 'G';
+  font-size: 90px;
+}
+.carta.H {
+  background: #00FF35;
+  pointer-events: none;
+}
+.carta.H::after{
+  content: 'H';
+  font-size: 90px;
+}
+.carta.A.par {
+  background: #00871C;
+  pointer-events: none;
+}
+
+.carta.B.par {
+  background: #00871C;
+  pointer-events: none;
+}
+
+.carta.C.par {
+  background: #00871C;
+  pointer-events: none;
+}
+
+.carta.D.par {
+  background: #00871C;
+  pointer-events: none;
+}
+
+.carta.E.par {
+  background: #00871C;
+  pointer-events: none;
+}
+
+.carta.F.par {
+  background: #00871C;
+  pointer-events: none;
+}
+
+.carta.G.par {
+ background: #00871C;
+ pointer-events: none;
+}
+
+.carta.H.par {
+  background: #00871C;
+  pointer-events: none;
+}
+.wins {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #FFF;
+    text-align: center;
+    padding: 200px 0;
+    font-size: 80px;
+}
+
+.block {
+  background: #78bec5;
+  width: 140px;
+  height: 140px;
+  margin: 5px;
+  position: absolute;
+  border-radius: 10px;
+  transition: background 1s;
+}
+.fondo3{
+  background: url(https://wallpaperaccess.com/full/647786.gif)no-repeat;
+  position: no-repeat;
+}
